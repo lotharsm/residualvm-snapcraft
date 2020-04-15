@@ -44,7 +44,6 @@ parts:
       fi
       snapcraftctl build
       
-    plugin: autotools
     configflags:
       - --enable-release
       - --disable-debug
