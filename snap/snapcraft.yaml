@@ -29,6 +29,9 @@ apps:
       - removable-media
       - home
 
+    environment:
+      DBUS_FATAL_WARNINGS: 0
+
 parts:
   residualvm:
     plugin: autotools
